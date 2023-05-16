@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ClassButton from "./components/1_paskaita/ClassButton";
+import ClassDiv from "./components/1_paskaita/ClassDiv";
+import FuncButton from "./components/1_paskaita/FuncButton";
+import FuncDiv from "./components/1_paskaita/FuncDiv";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FuncButton title="Submit" />
+      <FuncButton title="Cancel" />
+      <FuncButton title="Refresh" />
+      <ClassButton title="Class button" />
+      <FuncDiv
+        title="Game Pass"
+        paragraph="Join gaming world only for 4.99$ per month"
+      />
+
+      <ClassDiv title="Class Div" paragraph="This is class component" />
     </div>
   );
 }
