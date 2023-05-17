@@ -5,7 +5,7 @@ const FuncDiv = (props) => {
         <div>
             <h3>{props.title}</h3>
             <p>{props.paragraph}</p>
-            <FuncButton title="Subscribe"/>
+            <FuncButton title={props.btnName}/>
         </div>
     )
 }
