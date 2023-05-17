@@ -8,7 +8,7 @@ class ClassDiv extends React.Component {
             <div>
                 <h3>{this.props.title}</h3>
                 <p>{this.props.paragraph}</p>
-                <ClassButton title="Join" />
+                <ClassButton title={this.props.btnName} />
             </div>
         )
     }

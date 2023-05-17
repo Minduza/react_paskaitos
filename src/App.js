@@ -14,9 +14,14 @@ function App() {
       <FuncDiv
         title="Game Pass"
         paragraph="Join gaming world only for 4.99$ per month"
+        btnName="Subscribe"
       />
 
-      <ClassDiv title="Class Div" paragraph="This is class component" />
+      <ClassDiv
+        title="Class Div"
+        paragraph="This is class component"
+        btnName="Test"
+      />
     </div>
   );
 }
