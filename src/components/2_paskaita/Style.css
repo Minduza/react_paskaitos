@@ -1,0 +1,32 @@
+.card {
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 21px -1px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 8px 8px 21px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 8px 8px 21px -1px rgba(0,0,0,0.36);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.textBox{
+    padding:1rem;
+}
+
+.avatarCircle {
+    border-radius: 50%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    font-size: 1.2rem;
+
+}
+
+.margin-10 {
+    margin:10px;
+}

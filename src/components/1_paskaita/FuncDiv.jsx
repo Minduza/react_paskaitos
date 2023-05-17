@@ -1,4 +1,5 @@
 import FuncButton from "./FuncButton"
+import PropTypes from 'prop-types'
 
 const FuncDiv = (props) => {
     return (
@@ -8,6 +9,11 @@ const FuncDiv = (props) => {
             <FuncButton title={props.btnName}/>
         </div>
     )
+}
+
+FuncDiv.propTypes = {
+    title: PropTypes.string,
+    paragraph: PropTypes.string
 }
 
 export default FuncDiv
