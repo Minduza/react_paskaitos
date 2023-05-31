@@ -1,0 +1,26 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 21%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    color:grey;
+    font-size: 0.9rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.mb-7 {
+    margin-bottom: 7px;
+}
